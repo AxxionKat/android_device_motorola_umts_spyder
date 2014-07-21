@@ -2,12 +2,12 @@
 $(call inherit-product, device/motorola/umts_spyder/full_umts_spyder.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/axxion/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_umts_spyder
+PRODUCT_NAME := axxion_umts_spyder
 PRODUCT_BRAND := RTGB
 PRODUCT_DEVICE := umts_spyder
 PRODUCT_MODEL := XT910
