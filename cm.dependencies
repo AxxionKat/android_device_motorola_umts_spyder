@@ -2,10 +2,17 @@
   {
     "repository": "android_device_motorola_omap4-common",
     "target_path": "device/motorola/omap4-common"
+    "remote": "axxion"
   },
   {
     "repository": "android_kernel_motorola_omap4-common",
     "target_path": "kernel/motorola/omap4-common"
+    "remote": "cm"
+  },
+  {
+    "repository": "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola"
+    "remote": "tm"    
   }
 ]
 
